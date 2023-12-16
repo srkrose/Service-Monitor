@@ -1,7 +1,7 @@
 # Add cronjobs to /etc/crontab
 
-X X X X X sudo sh /home/rlksvrlogs/scripts/remove/rmvoldlogs.sh > /dev/null 2>&1
-X X X X X sudo sh /home/rlksvrlogs/scripts/remove/rmvtemp.sh > /dev/null 2>&1
+X X X X X sudo sh /home/sample/scripts/remove/rmvoldlogs.sh > /dev/null 2>&1
+X X X X X sudo sh /home/sample/scripts/remove/rmvtemp.sh > /dev/null 2>&1
 
-X X X X X sudo sh /home/rlksvrlogs/scripts/service/servicestatus.sh > /dev/null 2>&1
-X X X X X sudo sh /home/rlksvrlogs/scripts/service/httpdprocess.sh > /dev/null 2>&1
+X X X X X sudo sh /home/sample/scripts/service/servicestatus.sh > /dev/null 2>&1
+X X X X X sudo sh /home/sample/scripts/service/httpdprocess.sh > /dev/null 2>&1
