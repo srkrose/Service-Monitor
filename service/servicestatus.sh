@@ -91,7 +91,7 @@ function check_stat() {
 function send_sms() {
 	message=$(echo "$hostname: $content")
 
-	php $scripts/send_sms.php "$message" "$validation"
+	#php $scripts/send_sms.php "$message" "$validation"
 
 	curl -X POST -H "Content-type: application/json" --data "{\"text\":\"$message\"}" $serviceslack
 }
